@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.705
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MVC(Vista)", "MVC(Vista)\MVC(Vista).csproj", "{88F1ECB3-8B01-46E8-8848-CE913C7EFC49}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Modelo", "Modelo\Modelo.csproj", "{289CD03F-9609-48BE-8DFE-469018D2ABAD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Controlador", "Controlador\Controlador.csproj", "{EA9F6754-3F4F-427A-B1A8-15E9DA5F8965}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{88F1ECB3-8B01-46E8-8848-CE913C7EFC49}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{88F1ECB3-8B01-46E8-8848-CE913C7EFC49}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{88F1ECB3-8B01-46E8-8848-CE913C7EFC49}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{88F1ECB3-8B01-46E8-8848-CE913C7EFC49}.Release|Any CPU.Build.0 = Release|Any CPU
+		{289CD03F-9609-48BE-8DFE-469018D2ABAD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{289CD03F-9609-48BE-8DFE-469018D2ABAD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{289CD03F-9609-48BE-8DFE-469018D2ABAD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{289CD03F-9609-48BE-8DFE-469018D2ABAD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EA9F6754-3F4F-427A-B1A8-15E9DA5F8965}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EA9F6754-3F4F-427A-B1A8-15E9DA5F8965}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EA9F6754-3F4F-427A-B1A8-15E9DA5F8965}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EA9F6754-3F4F-427A-B1A8-15E9DA5F8965}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {E905534B-92AA-4772-975D-2422FD2DC242}
+	EndGlobalSection
+EndGlobal
