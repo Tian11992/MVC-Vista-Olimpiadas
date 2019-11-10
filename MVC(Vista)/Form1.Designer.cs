@@ -29,6 +29,8 @@
         private void InitializeComponent()
         {
             this.dtpaises = new System.Windows.Forms.DataGridView();
+            this.idpais = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.nombrepais = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.label1 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
@@ -37,10 +39,9 @@
             this.btnguardarcambios = new System.Windows.Forms.Button();
             this.btneliminar = new System.Windows.Forms.Button();
             this.btncancelar = new System.Windows.Forms.Button();
-            this.idpais = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.nombrepais = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.label4 = new System.Windows.Forms.Label();
             this.txtcodigo = new System.Windows.Forms.TextBox();
+            this.btnregresar = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.dtpaises)).BeginInit();
             this.SuspendLayout();
             // 
@@ -55,6 +56,19 @@
             this.dtpaises.Size = new System.Drawing.Size(395, 150);
             this.dtpaises.TabIndex = 0;
             this.dtpaises.CellClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dtpaises_CellClick);
+            // 
+            // idpais
+            // 
+            this.idpais.DataPropertyName = "idpais";
+            this.idpais.HeaderText = "Codigo";
+            this.idpais.Name = "idpais";
+            // 
+            // nombrepais
+            // 
+            this.nombrepais.DataPropertyName = "nombrepais";
+            this.nombrepais.HeaderText = "Nombre del Pais";
+            this.nombrepais.Name = "nombrepais";
+            this.nombrepais.Width = 250;
             // 
             // label1
             // 
@@ -135,19 +149,6 @@
             this.btncancelar.UseVisualStyleBackColor = true;
             this.btncancelar.Click += new System.EventHandler(this.btncancelar_Click);
             // 
-            // idpais
-            // 
-            this.idpais.DataPropertyName = "idpais";
-            this.idpais.HeaderText = "Codigo";
-            this.idpais.Name = "idpais";
-            // 
-            // nombrepais
-            // 
-            this.nombrepais.DataPropertyName = "nombrepais";
-            this.nombrepais.HeaderText = "Nombre del Pais";
-            this.nombrepais.Name = "nombrepais";
-            this.nombrepais.Width = 250;
-            // 
             // label4
             // 
             this.label4.AutoSize = true;
@@ -166,11 +167,22 @@
             this.txtcodigo.Size = new System.Drawing.Size(120, 29);
             this.txtcodigo.TabIndex = 10;
             // 
+            // btnregresar
+            // 
+            this.btnregresar.Location = new System.Drawing.Point(208, 448);
+            this.btnregresar.Name = "btnregresar";
+            this.btnregresar.Size = new System.Drawing.Size(75, 23);
+            this.btnregresar.TabIndex = 11;
+            this.btnregresar.Text = "Regresar";
+            this.btnregresar.UseVisualStyleBackColor = true;
+            this.btnregresar.Click += new System.EventHandler(this.btnregresar_Click);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(506, 450);
+            this.ClientSize = new System.Drawing.Size(506, 505);
+            this.Controls.Add(this.btnregresar);
             this.Controls.Add(this.txtcodigo);
             this.Controls.Add(this.label4);
             this.Controls.Add(this.btncancelar);
@@ -205,6 +217,7 @@
         private System.Windows.Forms.Button btncancelar;
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.TextBox txtcodigo;
+        private System.Windows.Forms.Button btnregresar;
     }
 }
 

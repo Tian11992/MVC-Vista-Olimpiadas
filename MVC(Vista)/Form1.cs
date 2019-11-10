@@ -25,6 +25,7 @@ namespace MVC_Vista_
             btnguardarcambios.Enabled = false;
             btneliminar.Enabled = false;
             btncancelar.Enabled = false;
+            txtcodigo.Enabled = false;
         }
 
         public void ListarPaises()
@@ -171,6 +172,13 @@ namespace MVC_Vista_
             btncancelar.Enabled = false;
             txtnombre.Clear();
             txtnombre.Focus();
+        }
+
+        private void btnregresar_Click(object sender, EventArgs e)
+        {
+            Menu menu = new Menu();
+            menu.Show();
+            this.Dispose();
         }
     }
 }

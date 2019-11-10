@@ -44,6 +44,8 @@
     <Compile Include="Class1.cs" />
     <Compile Include="Paises\PaisesDAO.cs" />
     <Compile Include="Paises\PaisesDTO.cs" />
+    <Compile Include="Participantes\ParticipantesDAO.cs" />
+    <Compile Include="Participantes\ParticipantesDTO.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
